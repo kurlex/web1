@@ -15,6 +15,7 @@ h3{
 img{
 position: absolute;
 right:10%;
+bottom:15%;
 }
 .top{
   width: 42%;
@@ -60,14 +61,28 @@ padding: 20px;
 }
 
 @media only screen and (max-width: 1200px) {
+  .sub{
+    margin:20px auto;
+    position: relative;
+    background-color: white;
+  border-radius: 2%;
+  height: 200px;
+  width: 300px;
+  padding: 20px;
+   box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
+  }
   .sub1{
 position: relative;
 bottom: 0;
   margin:20px auto;
   left: 0;
   right: 0;
+  height: 200px;
+  width: 300px;
   }
   .sub12{
+    height: 200px;
+    width: 300px;
 position: relative;
 bottom: 0;
   margin:20px auto;
