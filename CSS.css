@@ -15,7 +15,7 @@ h3{
 img{
 position: absolute;
 right:10%;
-bottom:15%;
+bottom:10%;
 }
 .top{
   width: 42%;
@@ -32,7 +32,7 @@ bottom:15%;
   background-color: white;
 border-radius: 2%;
 height: 250px;
-width: 350px;
+  width: 26.62%;
 padding: 20px;
  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
 }
@@ -42,7 +42,7 @@ padding: 20px;
   background-color: white;
 border-radius: 2%;
 height: 250px;
-width: 350px;
+  width: 26.62%;
 padding: 20px;
  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
  border-top:solid #61f2f5 5px; left:2%;
@@ -53,14 +53,14 @@ padding: 20px;
   background-color: white;
 border-radius: 2%;
 height: 250px;
-width: 350px;
+  width: 26.62%;
 padding: 20px;
  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
  border-top:solid hsl(212, 86%, 64%) 5px;
  right: 2%;
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 800px) {
   .sub{
     margin:20px auto;
     position: relative;
@@ -90,7 +90,7 @@ bottom: 0;
   right: 0;
   }
 }
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 600px) {
 .top
 {
 
