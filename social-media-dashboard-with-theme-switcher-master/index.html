@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favimages/icon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+  <title>Frontend Mentor | [Challenge Name Here]</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+<div class="main">
+  <div class="heading-grid">
+    <div class="title">
+      <p style="font-weight: 700;font-size:25px;margin-bottom:5px;margin-top:10px;" class="whi fff">Social Media Dashboard</p>
+      <p style="font-weight: 700;font-size:12px;margin-bottom:5px;margin-top:0;color:#868fae;" >Total Followers: 23,004</p>
+    </div>
+    <div class="switcherdiv">
+      <p id="d-l"style="display:inline-block;  font-weight: 700;font-size:12px;margin-right:3px;color:#868fae;">Dark Mode</p>
+      <label class="switch">
+        <input type="checkbox">
+        <span class="slider round"></span>
+      </label>
+    </div>
+  </div>
+  <div class="top-grid">
+    <div class="item" style="  border-top: 5px solid hsl(195, 100%, 50%)">
+      <div>
+        <img class="icon-pos" src="images/icon-facebook.svg" alt="facebook_icon">
+        <p class="tag-grid aaa gri">@nathanf</p>
+      </div>
+      <p class="whi fff " style="font-size:50px;font-weight:700;margin:3px;">1987</p>
+      <p class="dark-tag" style="letter-spacing:3px;font-size:11px;margin:3px;">FOLLOWERS</p>
+      <div style="margin-top:7px;">
+        <img class="trad-pos" src="images/icon-up.svg" alt="up">
+        <p class="tag-grid" style="color:hsl(163, 72%, 41%); margin-left:0;">12 Today</p>
+      </div>
+    </div>
+    <div class="item"style="  border-top: 5px solid hsl(203, 89%, 53%)">
+      <div>
+        <img class="icon-pos" src="images/icon-twitter.svg" alt="twitter_icon">
+        <p class="tag-grid aaa gri">@nathanf</p>
+      </div>
+      <p class="whi fff " style="font-size:50px;font-weight:700;margin:3px;">1044</p>
+      <p class="dark-tag" style="letter-spacing:3px;font-size:11px;margin:3px;">FOLLOWERS</p>
+      <div style="margin-top:7px;">
+        <img class="trad-pos" src="images/icon-up.svg" alt="up">
+        <p class="tag-grid" style="color:hsl(163, 72%, 41%); margin-left:0;">99 Today</p>
+      </div>
+    </div>
+    <div class="item rounded dark">
+      <div>
+        <img class="icon-pos" style="margin-top:20px;"src="images/icon-instagram.svg" alt="Instagram_icon">
+        <p class="tag-grid aaa gri">@realnathanf</p>
+      </div>
+      <p class="whi fff " style="font-size:50px;font-weight:700;margin:3px;"> 11k</p>
+      <p class="dark-tag" style="letter-spacing:3px;font-size:11px;margin:3px;">FOLLOWERS</p>
+      <div style="margin-top:7px;">
+        <img class="trad-pos" src="images/icon-up.svg" alt="up">
+        <p class="tag-grid" style="color:hsl(163, 72%, 41%); margin-left:0;">1099 Today</p>
+      </div>
+    </div>
+    <div class="item" style="  border-top: 5px solid hsl(348, 97%, 39%)">
+      <div>
+        <img class="icon-pos" src="images/icon-youtube.svg" alt="YouTube_icon">
+        <p class="tag-grid aaa gri">Nathan F.</p>
+      </div>
+      <p class="whi fff " style="font-size:50px;font-weight:700;margin:3px;">8239</p>
+      <p class="dark-tag" style="letter-spacing:3px;font-size:11px;margin:3px;">SUBSCRIBERS</p>
+      <div style="margin-top:7px;">
+        <img class="trad-pos" src="images/icon-down.svg" alt="down">
+        <p class="tag-grid" style="color:hsl(356, 69%, 56%); margin-left:0;">144 Today</p>
+      </div>
+    </div>
+  </div>
+  <p class="bot-title whi fff" id="tit">Overview - Today</p>
+  <div class="top-grid bot"style="margin-top:30px;">
+    <div class="item1">
+      <div class="top-item">
+        <p style="margin:6px;font-weight: 700;font-size:12px;color:#868fae;" >Page Views</p>
+        <img style="margin:6px;margin-top:0;" class="icon-pos" src="images/icon-facebook.svg" alt="facebook_icon">
+      </div>
+      <div class="top-item"style="margin-top:15px;">
+        <p style="margin:6px;font-size:35px;font-weight:700;" class="whi fff " >87</p>
+        <div class="">
+          <img style="position:relative;top:18%;" class="trad-pos" src="images/icon-up.svg" alt="up">
+          <p style="position:relative;top:22%;margin-left:1px;margin-right:6px;color:hsl(163, 72%, 41%);" class="tag-grid">3%</p>
+        </div>
+      </div>
+    </div>
+    <div class="item1">
+      <div class="top-item">
+        <p style="margin:6px;font-weight: 700;font-size:12px;color:#868fae;" >Likes</p>
+        <img style="margin:6px;margin-top:0;" class="icon-pos" src="images/icon-facebook.svg" alt="facebook_icon">
+      </div>
+      <div class="top-item"style="margin-top:15px;">
+        <p style="margin:6px;font-size:35px;font-weight:700;" class="whi fff " >52</p>
+        <div class="">
+          <img style="position:relative;top:18%;" class="trad-pos" src="images/icon-down.svg" alt="down">
+          <p style="position:relative;top:22%;margin-left:1px;margin-right:6px;color:hsl(356, 69%, 56%);" class="tag-grid">2%</p>
+        </div>
+      </div>
+    </div>
+    <div class="item1">
+      <div class="top-item">
+        <p style="margin:6px;font-weight: 700;font-size:12px;color:#868fae;" >Likes</p>
+        <img class="icon-pos" src="images/icon-instagram.svg" alt="Instagram_icon">
+      </div>
+      <div class="top-item"style="margin-top:15px;">
+        <p style="margin:6px;font-size:35px;font-weight:700;" class="whi fff " >5462</p>
+        <div class="">
+          <img style="position:relative;top:18%;" class="trad-pos" src="images/icon-up.svg" alt="up">
+          <p style="position:relative;top:22%;margin-left:1px;margin-right:6px;color:hsl(163, 72%, 41%);" class="tag-grid">2257%</p>
+        </div>
+      </div>
+    </div>
+    <div class="item1">
+      <div class="top-item">
+        <p style="margin:6px;font-weight: 700;font-size:12px;color:#868fae;" >Profile Views</p>
+        <img class="icon-pos" src="images/icon-instagram.svg" alt="Instagram_icon">
+      </div>
+      <div class="top-item"style="margin-top:15px;">
+        <p style="margin:6px;font-size:35px;font-weight:700;" class="whi fff " >52k</p>
+        <div class="">
+          <img style="position:relative;top:18%;" class="trad-pos" src="images/icon-up.svg" alt="up">
+          <p style="position:relative;top:22%;margin-left:1px;margin-right:6px;color:hsl(163, 72%, 41%);" class="tag-grid">1375%</p>
+        </div>
+      </div>
+    </div>
+    <div class="item1">
+      <div class="top-item">
+        <p style="margin:6px;font-weight: 700;font-size:12px;color:#868fae;" >Retweets</p>
+        <img class="icon-pos" src="images/icon-twitter.svg" alt="twitter_icon">
+      </div>
+      <div class="top-item"style="margin-top:15px;">
+        <p style="margin:6px;font-size:35px;font-weight:700;" class="whi fff " >117</p>
+        <div class="">
+          <img style="position:relative;top:18%;" class="trad-pos" src="images/icon-up.svg" alt="up">
+          <p style="position:relative;top:22%;margin-left:1px;margin-right:6px;color:hsl(163, 72%, 41%);" class="tag-grid">303%</p>
+        </div>
+      </div>
+    </div>
+    <div class="item1">
+      <div class="top-item">
+        <p style="margin:6px;font-weight: 700;font-size:12px;color:#868fae;" >Likes</p>
+        <img class="icon-pos" src="images/icon-twitter.svg" alt="twitter_icon">
+      </div>
+      <div class="top-item"style="margin-top:15px;">
+        <p style="margin:6px;font-size:35px;font-weight:700;" class="whi fff " >507</p>
+        <div class="">
+          <img style="position:relative;top:18%;" class="trad-pos" src="images/icon-up.svg" alt="up">
+          <p style="position:relative;top:22%;margin-left:1px;margin-right:6px;color:hsl(163, 72%, 41%);" class="tag-grid">553%</p>
+        </div>
+      </div>
+    </div>
+    <div class="item1">
+      <div class="top-item">
+        <p style="margin:6px;font-weight: 700;font-size:12px;color:#868fae;" >Likes</p>
+        <img class="icon-pos" src="images/icon-youtube.svg" alt="YouTube_icon">
+      </div>
+      <div class="top-item"style="margin-top:15px;">
+        <p style="margin:6px;font-size:35px;font-weight:700;" class="whi fff " >107</p>
+        <div class="">
+          <img style="position:relative;top:18%;" class="trad-pos" src="images/icon-down.svg" alt="down">
+          <p style="position:relative;top:22%;margin-left:1px;margin-right:6px;color:hsl(356, 69%, 56%);" class="tag-grid">19%</p>
+        </div>
+      </div>
+    </div>
+    <div class="item1">
+      <div class="top-item">
+        <p style="margin:6px;font-weight: 700;font-size:12px;color:#868fae;" >Total Views</p>
+        <img class="icon-pos" src="images/icon-youtube.svg" alt="YouTube_icon">
+      </div>
+      <div class="top-item"style="margin-top:15px;">
+        <p style="margin:6px;font-size:35px;font-weight:700;" class="whi fff " >1407</p>
+        <div class="">
+          <img style="position:relative;top:18%;" class="trad-pos" src="images/icon-down.svg" alt="down">
+          <p style="position:relative;top:22%;margin-left:1px;margin-right:6px;color:hsl(356, 69%, 56%);" class="tag-grid">12%</p>
+        </div>
+      </div>
+    </div>
+</div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://github.com/kurlex">Kurlex</a>.
+  </div>
+<script src="j.js" charset="utf-8"></script>
+</body>
+</html>
