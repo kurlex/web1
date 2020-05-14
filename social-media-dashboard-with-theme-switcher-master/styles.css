@@ -137,12 +137,19 @@ margin-top:50px;
 background-clip: padding-box,border-box;
   background-origin: border-box;
 }
+
+
 .dark{
   background-image: linear-gradient(#252b43,#252b43) ,  linear-gradient(to right ,hsl(37, 97%, 70%),hsl(329, 70%, 58%));
 }
+.dark-clicked{
+  background-image: linear-gradient(#333a56,#333a56) ,  linear-gradient(to right ,hsl(37, 97%, 70%),hsl(329, 70%, 58%));
+}
+.light-clicked{
+  background-image: linear-gradient(#e1e3f0,#e1e3f0) ,  linear-gradient(to right ,hsl(37, 97%, 70%),hsl(329, 70%, 58%));
+}
 .light{
   background-image: linear-gradient(#f0f3fa,#f0f3fa) ,  linear-gradient(to right ,hsl(37, 97%, 70%),hsl(329, 70%, 58%));
-
 }
 .top-item{
 display: grid;
