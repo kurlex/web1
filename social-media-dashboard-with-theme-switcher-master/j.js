@@ -1,12 +1,47 @@
+dd();
+function ll(){
+  var y=document.getElementsByClassName("item");
+  for(i=0;i<4;i++){
+    y[i].addEventListener("mouseover",function(){
+    this.style.backgroundColor="#e1e3f0";
+  })
+    y[i].addEventListener("mouseout",function(){
+    this.style.backgroundColor="#f0f3fa";
+  })
+  }
+  y[3].addEventListener("mouseover",function(){
 
+    this.classList.remove("light");
+    this.classList.add("light-clicked");
+  })
+    y[3].addEventListener("mouseout",function(){
 
+      this.classList.add("light");
+      this.classList.remove("light-clicked");
+    })
+}
+function dd(){
+  var y=document.getElementsByClassName("item");
+  for(i=0;i<4;i++)
+  if(i!=3){
+    y[i].addEventListener("mouseover",function(){
+    this.style.backgroundColor="#333a56";
+  })
+    y[i].addEventListener("mouseout",function(){
+    this.style.backgroundColor="#252b43";
+  })
+  }
+
+}
 document.getElementsByClassName("slider")[0].addEventListener("click",function(){
   var x=document.getElementById("d-l");
   if(x.innerHTML=="Dark Mode")
   {tolight();
+    ll();
   x.innerHTML="Light Mode";
 }else{
   todark();
+  dd();
   x.innerHTML="Dark Mode";
 }})
 
